@@ -1,7 +1,6 @@
 import Hero from '@/components/Hero/Hero';
 import LogoCloud from '@/components/LogoCloud/LogoCloud';
 import YoutubeGrid from '@/components/YoutubeGrid/YoutubeGrid';
-import Stats from '@/components/GlobalStats/Stats';
 
 import { WavyBackgroundDemo } from '@/components/ui/WavyBackgroundDemo';
 import AboutMe from '@/components/about-me/AboutMe';
@@ -24,7 +23,6 @@ export default function Home() {
       <Hero />
       <LogoCloud />
       <YoutubeGrid />
-      <Stats />
       <WavyBackgroundDemo />
       <AboutMe />
       <Projects />
