@@ -36,11 +36,13 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: [
+      { url: '/images/jpeg/logo-nt.png', type: 'image/png' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon.ico', sizes: 'any' },
     ],
     apple: [
+      { url: '/images/jpeg/logo-nt.png', type: 'image/png' },
       { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
     other: [
@@ -76,6 +78,7 @@ export const metadata: Metadata = {
     url: publicBaseUrl,
     locale: 'en_US',
     images: [
+      { url: '/images/jpeg/logo-nt.png', width: 512, height: 512, alt: 'NT logo' },
       {
         url: '/images/png/portfolio-preview.png',
         width: 1200,
@@ -90,7 +93,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['/images/png/portfolio-preview.png'],
+    images: ['/images/jpeg/logo-nt.png', '/images/png/portfolio-preview.png'],
     title: 'Nikolay Todorov',
     description:
       'Personal website of Nikolay Todorov — Software Engineer, Lecturer, and Student. Explore projects, writing, and ways to get in touch.',
