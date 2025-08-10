@@ -1,0 +1,35 @@
+import Hero from '@/components/Hero/Hero';
+import LogoCloud from '@/components/LogoCloud/LogoCloud';
+import YoutubeGrid from '@/components/YoutubeGrid/YoutubeGrid';
+import Stats from '@/components/GlobalStats/Stats';
+
+import { WavyBackgroundDemo } from '@/components/ui/WavyBackgroundDemo';
+import AboutMe from '@/components/about-me/AboutMe';
+
+import TheEnd from '@/components/TheEnd';
+import { Footer } from '@/components/footer';
+// import Newsletter from '@/components/Newsletter/Newsletter';
+
+import { unstable_noStore as noStore } from 'next/cache';
+import Projects from '@/components/Projects/Projects';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 3600 * 12; // revalidate every 12 hour
+
+export default function Home() {
+  noStore();
+
+  return (
+    <main id="top" className="bg-transparent">
+      <Hero />
+      <LogoCloud />
+      <YoutubeGrid />
+      <Stats />
+      <WavyBackgroundDemo />
+      <AboutMe />
+      <Projects />
+      <TheEnd />
+      <Footer />
+    </main>
+  );
+}
