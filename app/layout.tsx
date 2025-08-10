@@ -10,14 +10,30 @@ import SVGGradientBg from '@/components/Hero/SVGGradientBg';
 import Menu from '@/components/Hero/Menu/Menu';
 import { Providers } from '@/components/Providers/Providers';
 
-export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
-  ),
-  title: 'Nikolay Todorov',
+const publicBaseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+const isProd = process.env.NODE_ENV === 'production';
 
+export const metadata: Metadata = {
+  metadataBase: new URL(publicBaseUrl),
+  title: 'Nikolay Todorov',
   description:
-    'Portfolio website of Nikolay Todorov',
+    'Personal website of Nikolay Todorov — Software Engineer, Lecturer, and Student. Explore projects, writing, and ways to get in touch.',
+  applicationName: 'Nikolay Todorov',
+  authors: [{ name: 'Nikolay Todorov', url: new URL(publicBaseUrl) }],
+  creator: 'Nikolay Todorov',
+  publisher: 'Nikolay Todorov',
+  category: 'technology',
+  keywords: [
+    'Nikolay Todorov',
+    'Software Engineer',
+    'Lecturer',
+    'Student',
+    'Portfolio',
+    'React',
+    'Next.js',
+    'TypeScript',
+    'Web Development',
+  ],
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -41,23 +57,43 @@ export const metadata: Metadata = {
     statusBarStyle: 'default',
     title: 'Nikolay Todorov',
   },
+  referrer: 'origin-when-cross-origin',
+  robots: isProd
+    ? {
+        index: true,
+        follow: true,
+        googleBot: { index: true, follow: true },
+      }
+    : { index: false, follow: false, nocache: true },
+  alternates: {
+    canonical: '/',
+  },
   formatDetection: {
     telephone: false,
   },
   openGraph: {
     type: 'website',
-    images: '/images/png/portfolio-preview.png',
+    url: publicBaseUrl,
+    locale: 'en_US',
+    images: [
+      {
+        url: '/images/png/portfolio-preview.png',
+        width: 1200,
+        height: 630,
+        alt: 'Portfolio preview image for Nikolay Todorov',
+      },
+    ],
     siteName: 'Nikolay Todorov',
     title: 'Nikolay Todorov',
     description:
-      'Portfolio website of Nikolay Todorov',
+      'Personal website of Nikolay Todorov — Software Engineer, Lecturer, and Student. Explore projects, writing, and ways to get in touch.',
   },
   twitter: {
     card: 'summary_large_image',
-    images: '/images/png/portfolio-preview.png',
+    images: ['/images/png/portfolio-preview.png'],
     title: 'Nikolay Todorov',
     description:
-      'Portfolio website of Nikolay Todorov',
+      'Personal website of Nikolay Todorov — Software Engineer, Lecturer, and Student. Explore projects, writing, and ways to get in touch.',
   },
 };
 

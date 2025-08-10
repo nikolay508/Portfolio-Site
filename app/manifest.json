@@ -17,7 +17,7 @@
     "background_color": "#ffffff",
     "display": "standalone",
     "start_url": "/",
-    "description": "AquaWolf is a Senior Full-Stack Software Engineer and indie hacker specializing in Web3, AI, and Machine Learning.",
+    "description": "Personal website of Nikolay Todorov — Software Engineer, Lecturer, and Student. Explore projects, writing, and ways to get in touch.",
     "orientation": "any",
     "lang": "en",
     "categories": ["technology", "portfolio", "blog"]
