@@ -122,7 +122,7 @@ export const WavyBackground = ({
       )}
     >
       <canvas
-        className="absolute inset-0 z-20"
+        className="absolute inset-0 z-20 pointer-events-none"
         ref={canvasRef}
         id="canvas"
         style={{
@@ -133,9 +133,9 @@ export const WavyBackground = ({
         {children}
       </div>
       {/* left shadow */}
-      <div className="absolute left-0 top-0 z-[99] h-full w-44 bg-gradient-to-r from-[#08080e] to-transparent"></div>
+      <div className="absolute left-0 top-0 z-[99] h-full w-44 bg-gradient-to-r from-[#08080e] to-transparent pointer-events-none"></div>
       {/* right shadow */}
-      <div className="absolute right-0 top-0 z-[99] h-full w-44 bg-gradient-to-l from-[#08080e] to-transparent"></div>
+      <div className="absolute right-0 top-0 z-[99] h-full w-44 bg-gradient-to-l from-[#08080e] to-transparent pointer-events-none"></div>
     </div>
   );
 };

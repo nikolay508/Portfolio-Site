@@ -96,9 +96,9 @@ const ScrollingTestimonials: React.FC<{ testimonials: CommentData[] }> = ({
             </div>
           ))}
           {/* top shadow */}
-          <div className="absolute left-0 right-0 top-0 h-1/4 bg-gradient-to-t from-transparent to-black"></div>
+          <div className="absolute left-0 right-0 top-0 h-1/4 bg-gradient-to-t from-transparent to-black pointer-events-none"></div>
           {/* bottom shadow */}
-          <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-black to-transparent"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
         </div>
       </div>
     </div>

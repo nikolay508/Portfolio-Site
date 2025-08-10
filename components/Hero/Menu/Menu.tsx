@@ -1,16 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Dialog, DialogPanel } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
-import SVGGradientBg from '../SVGGradientBg';
-import GithubLogo from '../../../public/images/svg/Github-Logo.svg';
-import InstagramLogo from '../../../public/images/svg/Instagram-Logo.svg';
-import LinkedinLogo from '../../../public/images/svg/LinkedIn-Logo.svg';
-import TiktokLogo from '../../../public/images/svg/Tiktok-Logo.svg';
-import TwitterLogo from '../../../public/images/svg/X-Twitter-Logo.svg';
-import YouTubeLogo from '../../../public/images/svg/Youtube-Logo.svg';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -25,7 +15,6 @@ interface NavItem {
 }
 
 export default function Menu() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const [navMenu, setNavMenu] = useState<NavItem[]>([
@@ -73,7 +62,7 @@ export default function Menu() {
   return (
     <div className="mx-auto max-w-[1440px]">
       <header className={clsx(
-        "inset-x-0 top-0 z-50 transition-all duration-300",
+        "inset-x-0 top-0 z-[999] pointer-events-auto transition-all duration-300",
         isScrolled 
           ? "fixed" 
           : "absolute"
@@ -83,24 +72,13 @@ export default function Menu() {
           className="flex items-center justify-between p-4 sm:p-6 lg:px-8"
         >
           <div className="hidden lg:flex lg:flex-1"></div>
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              onClick={() => setMobileMenuOpen(true)}
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-            >
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon aria-hidden="true" className="h-10 w-10 text-white" />
-            </button>
-          </div>
-          <div className="hidden gap-2 rounded-full bg-white/20 px-3 py-2 text-white backdrop-blur-sm lg:flex lg:w-full lg:flex-1 lg:items-center lg:justify-center lg:gap-x-6">
+          <div className="flex w-full max-w-full flex-nowrap items-center justify-center gap-1 whitespace-nowrap rounded-full bg-white/20 px-2 py-1.5 text-sm text-white backdrop-blur-sm overflow-x-hidden sm:gap-2 sm:px-3 sm:py-2 lg:w-full lg:flex-1 lg:justify-center lg:gap-x-6 lg:text-base">
             {/* Desktop Mobile menu */}
             {navMenu.map((item) => (
               <span key={item.name} onClick={() => setActiveNavItem(item.name)}>
                 <Link
                   className={clsx({
-                    'flex-2 relative rounded-full px-4 py-1 transition-all':
-                      true,
+                    'relative rounded-full px-3 py-1 text-sm transition-all whitespace-nowrap sm:px-3 sm:text-sm md:px-4 md:text-base': true,
                     [activeStyle]: item.isActive,
                     [inActiveStyle]: !item.isActive,
                   })}
@@ -134,164 +112,6 @@ export default function Menu() {
           <div className="hidden lg:flex lg:flex-1"></div>
 
         </nav>
-        <Dialog
-          open={mobileMenuOpen}
-          onClose={setMobileMenuOpen}
-          className="lg:hidden"
-        >
-          <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-bg-default px-4 py-6 sm:max-w-sm sm:px-6 sm:ring-1 sm:ring-gray-900/10">
-            <div className="relative z-50">
-              <div className="flex items-center justify-between">
-                <a href="#" className="-m-1.5 p-1.5">
-                  <span className="sr-only">Nikolay Todorov</span>
-                  <div className="flex items-center gap-2">
-                    <Image
-                      src="/images/png/aquawolf-logo.png"
-                      alt="Logo"
-                      width={28}
-                      height={28}
-                    />
-                    <div className="text-lg font-semibold text-white">
-                      Nikolay Todorov
-                    </div>
-                  </div>
-                </a>
-                <button
-                  type="button"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="-m-2.5 rounded-md p-2.5 text-gray-700"
-                >
-                  <span className="sr-only">Close menu</span>
-                  <XMarkIcon
-                    aria-hidden="true"
-                    className="h-10 w-10 text-white"
-                  />
-                </button>
-              </div>
-              <div className="mt-6 flow-root">
-                <div className="-my-6 divide-y divide-gray-500/10">
-                  <div className="space-y-2 py-6 text-center">
-                    {navMenu.map((item) => (
-                      <Link
-                        key={item.name + 1}
-                        href={item.href}
-                        onClick={(e) => {
-                          const targetId = getTargetIdByName(item.name);
-                          if (pathname === '/') {
-                            if (item.name === 'Home') {
-                              e.preventDefault();
-                              window.scrollTo({ top: 0, behavior: 'smooth' });
-                            } else if (targetId) {
-                              e.preventDefault();
-                              scrollToId(targetId);
-                            }
-                          } else if (targetId) {
-                            try {
-                              sessionStorage.setItem('scrollTarget', targetId);
-                            } catch {}
-                          }
-                          setMobileMenuOpen(false);
-                          setActiveNavItem(item.name);
-                        }}
-                        className="-mx-3 block rounded-lg px-3 py-3 text-2xl font-normal leading-7 text-white transition-all hover:bg-gray-50/20"
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                  {/* Seperator */}
-                  <div className="flex flex-1 items-center justify-center">
-                    <div className="h-[2px] w-[70vw] bg-white/100"></div>
-                  </div>
-                  {/* Social Links */}
-                  <div className="mt-10 grid gap-10">
-                    <div className="align-center flex flex-1 justify-center gap-10">
-                      <a
-                        href="https://twitter.com/nikolay"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={TwitterLogo}
-                          alt="X/Twitter Logo"
-                          width={50}
-                          height={50}
-                        />
-                      </a>
-                      <a
-                        className="grid items-center"
-                        href="https://www.youtube.com/@nikolay"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={YouTubeLogo}
-                          alt="YouTube Logo"
-                          width={50}
-                          height={50}
-                        />
-                      </a>
-                      <a
-                        href="https://github.com/nikolay"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={GithubLogo}
-                          alt="Github Logo"
-                          width={50}
-                          height={50}
-                        />
-                      </a>
-                    </div>
-                    <div className="align-center flex justify-center gap-10">
-                      <a
-                        href="https://www.instagram.com/nikolay"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="grid items-center"
-                      >
-                        <Image
-                          src={InstagramLogo}
-                          alt="Instagram Logo"
-                          width={50}
-                          height={50}
-                        />
-                      </a>
-                      <a
-                        href="https://www.tiktok.com/@nikolay"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={TiktokLogo}
-                          alt="TikTok Logo"
-                          width={50}
-                          height={50}
-                        />
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/in/nikolay"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="grid items-center"
-                      >
-                        <Image
-                          src={LinkedinLogo}
-                          alt="Linkedin Logo"
-                          width={50}
-                          height={50}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <SVGGradientBg />
-          </DialogPanel>
-        </Dialog>
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
