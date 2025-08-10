@@ -86,7 +86,7 @@ const getCachedGitHubStars = cache(
 
 export const Stats = async () => {
   const YOUR_CHANNEL_ID = 'UCkwRYP1J1hjRXwo5lyBRWdQ';
-  const YOUR_GITHUB_USERNAME = '0xAquaWolf';
+  const YOUR_GITHUB_USERNAME = 'nikolay508';
 
   let youtubeStats: Stat[] = [];
   let githubStars = 0;

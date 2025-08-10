@@ -38,20 +38,7 @@ export function Footer() {
         <div className="mt-10">
           <div className="flex flex-wrap justify-center gap-6">
             <a
-              href="https://twitter.com/0xAquaWolf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid items-center"
-            >
-              <Image
-                src={TwitterLogo}
-                alt="X/Twitter Logo"
-                width={40}
-                height={40}
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/@0xAquaWolf"
+              href="https://www.youtube.com/@n_todorov508"
               target="_blank"
               rel="noopener noreferrer"
               className="grid items-center"
@@ -64,7 +51,7 @@ export function Footer() {
               />
             </a>
             <a
-              href="https://github.com/0xAquaWolf"
+              href="https://github.com/nikolay508"
               target="_blank"
               rel="noopener noreferrer"
               className="grid items-center"
@@ -77,33 +64,7 @@ export function Footer() {
               />
             </a>
             <a
-              href="https://www.instagram.com/_0xAquaWolf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid items-center"
-            >
-              <Image
-                src={InstagramLogo}
-                alt="Instagram Logo"
-                width={40}
-                height={40}
-              />
-            </a>
-            <a
-              href="https://www.tiktok.com/@0xAquaWolf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid items-center"
-            >
-              <Image
-                src={TiktokLogo}
-                alt="TikTok Logo"
-                width={40}
-                height={40}
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/0xAquaWolf"
+              href="https://www.linkedin.com/in/n-todorov508"
               target="_blank"
               rel="noopener noreferrer"
               className="grid items-center"

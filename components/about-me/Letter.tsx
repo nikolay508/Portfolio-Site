@@ -76,7 +76,7 @@ export default function Letter() {
               </div>
               <div className="sm:ml-2 lg:ml-4">
                 <div className="text-lg font-semibold text-white sm:text-xl lg:text-2xl">
-                  0xAquawolf
+                  Nikolay Todorov
                 </div>
                 <div className="text-[11px] sm:text-[12px] lg:text-lg">
                   Senior Full-Stack Software Engineer

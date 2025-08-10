@@ -144,7 +144,7 @@ export default function Menu() {
             <div className="relative z-50">
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5">
-                  <span className="sr-only">0xAquaWolf</span>
+                  <span className="sr-only">Nikolay Todorov</span>
                   <div className="flex items-center gap-2">
                     <Image
                       src="/images/png/aquawolf-logo.png"
@@ -153,7 +153,7 @@ export default function Menu() {
                       height={28}
                     />
                     <div className="text-lg font-semibold text-white">
-                      0xAquaWolf
+                      Nikolay Todorov
                     </div>
                   </div>
                 </a>
@@ -208,7 +208,7 @@ export default function Menu() {
                   <div className="mt-10 grid gap-10">
                     <div className="align-center flex flex-1 justify-center gap-10">
                       <a
-                        href="https://twitter.com/0xAquaWolf"
+                        href="https://twitter.com/nikolay"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -221,7 +221,7 @@ export default function Menu() {
                       </a>
                       <a
                         className="grid items-center"
-                        href="https://www.youtube.com/@0xAquaWolf"
+                        href="https://www.youtube.com/@nikolay"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -233,7 +233,7 @@ export default function Menu() {
                         />
                       </a>
                       <a
-                        href="https://github.com/0xAquaWolf"
+                        href="https://github.com/nikolay"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -247,7 +247,7 @@ export default function Menu() {
                     </div>
                     <div className="align-center flex justify-center gap-10">
                       <a
-                        href="https://www.instagram.com/_0xAquaWolf"
+                        href="https://www.instagram.com/nikolay"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="grid items-center"
@@ -260,7 +260,7 @@ export default function Menu() {
                         />
                       </a>
                       <a
-                        href="https://www.tiktok.com/@0xAquaWolf"
+                        href="https://www.tiktok.com/@nikolay"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -272,7 +272,7 @@ export default function Menu() {
                         />
                       </a>
                       <a
-                        href="https://www.linkedin.com/in/0xAquaWolf"
+                        href="https://www.linkedin.com/in/nikolay"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="grid items-center"

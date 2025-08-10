@@ -14,7 +14,7 @@ export default function HeroCTA() {
         </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:justify-center sm:gap-4 lg:justify-start">
           <a
-            href="https://cal.com/0xaquawolf/discovery"
+            href="https://cal.com/nikolay/discovery"
             target="_blank"
             rel="noopener noreferrer"
             className="grid place-items-center rounded-full bg-white py-3 text-center text-sm text-black shadow-cta transition-all hover:bg-transparent hover:text-white hover:shadow-alt-cta sm:py-4 xl:px-6 xl:py-3 xl:text-lg"
