@@ -11,27 +11,6 @@ export function Footer() {
   return (
     <footer className="bg-bg-default px-4 py-8 text-white">
       <div className="mx-auto max-w-6xl">
-        <nav className="mb-8 flex justify-center space-x-6">
-          <Link
-            href="/discord"
-            className="transition-colors hover:text-gray-300"
-          >
-            Discord
-          </Link>
-          <Link
-            href="/contact"
-            className="transition-colors hover:text-gray-300"
-          >
-            Contact Me
-          </Link>
-          <Link href="/hire" className="transition-colors hover:text-gray-300">
-            Hire Me
-          </Link>
-          <Link href="/shop" className="transition-colors hover:text-gray-300">
-            Shop
-          </Link>
-        </nav>
-
         <div className="mt-10">
           <div className="flex flex-wrap justify-center gap-6">
             <a
