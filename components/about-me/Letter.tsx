@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import DreamshotLogo from '@/public/images/png/dreamshot.png';
 import SoftUniLogo from '@/public/images/png/softuni.png';
-import YoutubeLogo from '@/public/images/jpeg/youtube.jpg';
+import YoutubeLogo from '@/public/images/svg/Youtube-Logo.svg';
 
 export default function Letter() {
   return (
@@ -24,8 +24,8 @@ export default function Letter() {
               className="w-16 opacity-80 drop-shadow-[0_0_24px_rgba(59,130,246,0.45)] rotate-[-10deg] md:w-20 lg:w-24 xl:w-28 object-contain"
             />
           </div>
-          <div className="relative translate-y-2 md:translate-y-3 lg:translate-y-3 left-[2px] md:left-[3px]">
-            <div className="absolute -inset-6 -z-10 bg-[radial-gradient(ellipse_at_center,rgba(239,68,68,0.35),transparent_60%)] blur-2xl" />
+          <div className="relative translate-y-6 md:translate-y-8 lg:translate-y-10 left-[2px] md:left-[3px]">
+            <div className="absolute -inset-6 -z-10 rounded-full bg-[radial-gradient(ellipse_at_center,rgba(239,68,68,0.35),transparent_60%)] blur-2xl" />
             <Image
               src={YoutubeLogo}
               alt="YouTube logo"
