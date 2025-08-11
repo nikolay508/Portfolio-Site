@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 
-export function ScrollToTop(): null {
+export function ScrollToTop(): JSX.Element | null {
   useEffect(() => {
     const root = document.documentElement;
     const previousScrollBehavior = root.style.scrollBehavior;
