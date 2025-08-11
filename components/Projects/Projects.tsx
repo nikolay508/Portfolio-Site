@@ -73,9 +73,9 @@ export const projectsData: Project[] = [
     title: 'Bulgaria: A Hidden Gem of Europe',
     description:
       'An educational Spanish-language project highlighting Bulgaria’s history, culture, and natural beauty. Created for a Spanish class to improve language skills and promote cultural appreciation.',
-    date: 'May 2025',
+    date: 'April 2025',
     imageUrl: '/projects/bulgaria-site.png',
-    tags: ['Spanish', 'Research', 'Education', 'Culture', 'History'],
+    tags: ['JavaScript', 'React', 'Tailwind CSS', 'Spanish', 'Research', 'Education', 'Culture', 'History'],
     slug: 'bulgaria-hidden-gem',
     links: [
       { title: 'Live Site', url: 'https://guia-turistica-bulgaria.vercel.app/' },
@@ -98,7 +98,7 @@ export const projectsData: Project[] = [
     title: 'Chat Application',
     description:
       'A full-stack chat platform built with Node.js, React, and MongoDB. Features real-time messaging, user authentication, customizable profiles, and light/dark themes.',
-    date: 'June 2025',
+    date: 'April 2025',
     imageUrl: '/projects/chat-app.png',
     tags: ['JavaScript', 'Node.js', 'React', 'MongoDB', 'Full-Stack', 'WebSockets', 'Render Hosting'],
     slug: 'chat-application-nikolay-todorov',
@@ -123,8 +123,8 @@ export const projectsData: Project[] = [
     title: 'NoteQuote',
     description:
       'A social platform for sharing inspiring quotes and helpful notes with friends. Built with React, Tailwind CSS, Node.js, Express, and Supabase for a seamless full-stack experience.',
-    date: 'July 2025',
-    imageUrl: '/projects/notequote.jpg',
+    date: 'June 2025',
+    imageUrl: '/projects/notequote.png',
     tags: ['JavaScript', 'React', 'Tailwind CSS', 'Node.js', 'Express', 'Supabase', 'Full-Stack'],
     slug: 'notequote-social-media',
     links: [
@@ -149,7 +149,7 @@ export const projectsData: Project[] = [
     title: 'LeBron AI-Chatbot',
     description:
       'An interactive chatbot experience that lets users chat with “LeBron James,” powered by the Gemini API. Built with Vanilla JavaScript, HTML, and CSS for a simple, efficient, and responsive experience.',
-    date: 'August 2025',
+    date: 'December 2024',
     imageUrl: '/projects/lebron-ai.png',
     tags: ['JavaScript', 'HTML', 'CSS', 'Gemini API', 'AI', 'Chatbot', 'Web Development'],
     slug: 'ai-chatbot-gemini-api',
