@@ -1,5 +1,6 @@
 import HeroCircles from './HeroCircles';
 import { Badge } from '@/components/ui/badge';
+import { SocialsMenu } from './SocialsMenu';
 
 export default function HeroCTA() {
   return (
@@ -29,18 +30,11 @@ export default function HeroCTA() {
             href="https://cal.com/nikolay-todorov"
             target="_blank"
             rel="noopener noreferrer"
-            className="grid place-items-center rounded-full bg-white py-3 text-center text-sm text-black shadow-cta transition-all hover:bg-transparent hover:text-white hover:shadow-alt-cta sm:py-4 xl:px-6 xl:py-3 xl:text-lg"
+            className="w-full grid place-items-center rounded-full bg-white py-3 text-center text-sm text-black shadow-cta transition-all hover:bg-transparent hover:text-white hover:shadow-alt-cta sm:py-4 xl:px-6 xl:py-3 xl:text-lg"
           >
             Book a Call
           </a>
-          <a
-            href="https://github.com/nikolay508"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid place-items-center rounded-full py-3 text-center text-sm text-white shadow-alt-cta transition-all hover:bg-white hover:text-black hover:shadow-cta sm:py-4 xl:px-8 xl:py-3 xl:text-lg"
-          >
-            My GitHub
-          </a>
+          <SocialsMenu />
         </div>
       </div>
       <HeroCircles />
