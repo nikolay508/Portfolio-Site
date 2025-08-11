@@ -22,7 +22,7 @@ export const projectsData: Project[] = [
     description:
       'Official website for MJ Charter, a yacht rental company offering premium sailing experiences across Greece. Users can explore available yachts, browse destinations, and request bookings online.',
     date: 'August 2025',
-    imageUrl: '/projects/mj-charter.jpg',
+    imageUrl: '/projects/mj-charter.png',
     tags: ['JavaScript', 'React', 'Next.js', 'Tailwind CSS', 'Web Development', 'Booking System'],
     slug: 'mj-charter-business-site',
     links: [
@@ -48,7 +48,7 @@ export const projectsData: Project[] = [
     description:
       'AI-powered platform that helps users prepare for job interviews by providing personalized questions, detailed answers, concept explanations, and tools to organize preparation. Built with Next.js.',
     date: 'August 2025',
-    imageUrl: '/projects/interview-ninja.jpg',
+    imageUrl: '/projects/interview-ninja.png',
     tags: ['JavaScript', 'Next.js', 'AI', 'Machine Learning', 'Web Development'],
     slug: 'interview-ninja',
     links: [
@@ -74,7 +74,7 @@ export const projectsData: Project[] = [
     description:
       'An educational Spanish-language project highlighting Bulgaria’s history, culture, and natural beauty. Created for a Spanish class to improve language skills and promote cultural appreciation.',
     date: 'May 2025',
-    imageUrl: '/projects/bulgaria-hidden-gem.jpg',
+    imageUrl: '/projects/bulgaria-site.png',
     tags: ['Spanish', 'Research', 'Education', 'Culture', 'History'],
     slug: 'bulgaria-hidden-gem',
     links: [
@@ -99,7 +99,7 @@ export const projectsData: Project[] = [
     description:
       'A full-stack chat platform built with Node.js, React, and MongoDB. Features real-time messaging, user authentication, customizable profiles, and light/dark themes.',
     date: 'June 2025',
-    imageUrl: '/projects/chat-application.jpg',
+    imageUrl: '/projects/chat-app.png',
     tags: ['JavaScript', 'Node.js', 'React', 'MongoDB', 'Full-Stack', 'WebSockets', 'Render Hosting'],
     slug: 'chat-application-nikolay-todorov',
     links: [
@@ -150,7 +150,7 @@ export const projectsData: Project[] = [
     description:
       'An interactive chatbot experience that lets users chat with “LeBron James,” powered by the Gemini API. Built with Vanilla JavaScript, HTML, and CSS for a simple, efficient, and responsive experience.',
     date: 'August 2025',
-    imageUrl: '/projects/ai-chatbot-gemini.jpg',
+    imageUrl: '/projects/lebron-ai.png',
     tags: ['JavaScript', 'HTML', 'CSS', 'Gemini API', 'AI', 'Chatbot', 'Web Development'],
     slug: 'ai-chatbot-gemini-api',
     links: [

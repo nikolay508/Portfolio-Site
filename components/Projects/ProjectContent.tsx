@@ -27,7 +27,7 @@ export default function ProjectContent({
       <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-3">
         {/* Left - Hero Image */}
         <div className="lg:col-span-2">
-          <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-gray-900">
+          <div className="relative aspect-video w-full overflow-hidden rounded-2xl border-4 border-white/20 bg-gray-900 shadow-2xl">
             {/* Loading Placeholder */}
             <div
               className={`absolute inset-0 flex items-center justify-center bg-gray-800 transition-opacity duration-300 ${

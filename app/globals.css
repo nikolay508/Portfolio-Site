@@ -226,3 +226,11 @@ html {
 .hero-gradient-text {
   @apply bg-gradient-to-r from-blue-300 to-white bg-clip-text text-transparent;
 }
+
+/* Utilities: line clamp helpers */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
