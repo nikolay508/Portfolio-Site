@@ -28,7 +28,7 @@ export default function ProjectCard({
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <Link href={`/projects/${slug}`} className="h-full" scroll>
+    <Link href={`/projects/${slug}`} className="h-full">
       <div className="group relative h-full">
         {/* Glow */}
         <div

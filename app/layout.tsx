@@ -9,7 +9,6 @@ import localFont from 'next/font/local';
 import SVGGradientBg from '@/components/Hero/SVGGradientBg';
 import Menu from '@/components/Hero/Menu/Menu';
 import { Providers } from '@/components/Providers/Providers';
-import { ScrollResetOnNav } from '@/components/ScrollResetOnNav';
 
 const publicBaseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 const isProd = process.env.NODE_ENV === 'production';
@@ -135,7 +134,6 @@ export default function RootLayout({
           <div className="mx-auto max-w-[1440px] bg-transparent px-4 sm:px-6 lg:px-8">
             <SVGGradientBg />
             <Menu />
-            <ScrollResetOnNav />
             {/* Scroll-to-target on initial load using sessionStorage flag */}
             <script
               dangerouslySetInnerHTML={{
