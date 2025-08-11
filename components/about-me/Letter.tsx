@@ -51,11 +51,11 @@ export default function Letter() {
           </div>
         </div>
         {/* Letter Bottom */}
-        <div className="absolute left-0 top-0 z-10 h-full w-full -rotate-1 rounded-lg bg-letter-middle lg:-rotate-2"></div>
+        <div className="absolute inset-0 z-10 -rotate-1 transform-gpu rounded-lg bg-letter-middle lg:-rotate-2"></div>
         {/* Letter Middle */}
-        <div className="absolute left-1 top-1 z-20 h-[98%] w-[98%] -rotate-1 rounded-lg bg-letter-bottom sm:left-2 sm:top-2 lg:left-3 lg:top-10 lg:h-[95%] lg:w-[98%] lg:rotate-3"></div>
+        <div className="absolute left-1 right-1 top-1 bottom-1 z-20 -rotate-1 transform-gpu rounded-lg bg-letter-bottom sm:left-2 sm:right-2 sm:top-2 sm:bottom-2 lg:left-3 lg:right-3 lg:top-10 lg:bottom-3 lg:rotate-3"></div>
         {/* Letter Top */}
-        <div className="relative z-30 -rotate-1 rounded-lg bg-letter-top shadow-letter-top lg:rotate-2 lg:rounded-xl">
+        <div className="relative z-30 -rotate-1 transform-gpu rounded-lg bg-letter-top shadow-letter-top lg:rotate-2 lg:rounded-xl">
           <article className="space-y-4 p-4 text-sm text-white/80 sm:text-base lg:space-y-5 lg:p-5 lg:px-24 lg:py-14 lg:text-2xl">
             <p>Hi, I am Nikolay. <span className="font-semibold text-white/90">Quick story time.</span></p>
             <p>
