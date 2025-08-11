@@ -31,7 +31,7 @@ export default function Letter() {
               alt="YouTube logo"
               width={120}
               height={120}
-              className="w-16 opacity-90 drop-shadow-[0_0_24px_rgba(239,68,68,0.45)] rotate-[3deg] md:w-[4rem] lg:w-[5rem] xl:w-[6rem] object-contain"
+              className="w-16 opacity-90 drop-shadow-[0_0_28px_rgba(239,68,68,0.5)] rotate-[3deg] md:w-[4rem] lg:w-[5rem] xl:w-[6rem] object-contain"
             />
           </div>
         </div>
