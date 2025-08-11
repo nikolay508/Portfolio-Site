@@ -14,74 +14,40 @@ export default function Letter() {
         {/* Letter Top */}
         <div className="relative z-30 -rotate-1 rounded-lg bg-letter-top shadow-letter-top lg:rotate-2 lg:rounded-xl">
           <article className="space-y-4 p-4 text-sm text-white/80 sm:text-base lg:space-y-5 lg:p-5 lg:px-24 lg:py-14 lg:text-2xl">
-            <p>What&apos;s Up Everyone, I&apos;m AquaWolf from Miami, FL</p>
+            <p>Hi, I am Nikolay. Quick story time.</p>
             <p>
-              So, my story&apos;s kinda wild. Started coding back in 2016, got
-              caught up in the crypto craze of October 2021.
+              I tried programming for the first time in high school and, honestly, it didn&apos;t
+              spark much at the start. But the more I learned, the more I saw the
+              possibilities: building solutions to real problems, helping early
+              coders find their footing, and give small charities the chance of more visibility.
             </p>
             <p>
-              Helped launch some really big NFT projects - DAW, TheLostKingdom &
-              SuperFuzz, My code generated over 28m+ and i ended up achieving a
-              massive personal success...
-            </p>
-            <p>But fuck, burnout hit me like a big 18 wheeler truck.</p>
-            <p>I was lost, ship wrecked, stranded at sea with no boat.</p>
-            <p>
-              So i decided to shake things up. Went digital nomadding for 2
-              years.
-            </p>
-            <p>Trekking through Peru, Thailand, India, Cambodia, Laos.</p>
-            <p>
-              Got real deep into Health & Wellness, Spirituality, Consciousness,
-              Neuroscience, Ayahuasca, Magic Mushrooms and DMT.
+              After graduating, I went all in. I started working as a back‑end
+              developer building games at <span className="text-yellow-400">Dreamshot</span>,
+              kept developing my own ideas, and spent time teaching fundamentals to
+              students from <span className="text-blue-400">SoftUni</span> - showing them the craft, the mindset, and the joy of
+              building.
             </p>
             <p>
-              I was looking for myself so i could put all the pieces back
-              together because i was so broken, i honestly didn&apos;t even want
-              to code anymore all i wanted to do was sell everything and become
-              a monk and just travel barefoot, but eventually i grounded myself
-              back in to reality
+              As I mentioned I also volunteer my skills to small nonprofit and charity projects,
+              shipping simple, effective sites that help them reach people faster and
+              make a bigger impact.
             </p>
-            <p>So, now I&apos;m back in the mix, wearing a bunch of hats:</p>
+            <p className="font-semibold text-white/90">Today, I split my time between:</p>
             <ul className="list-disc pl-5 sm:pl-6">
-              <li>Full-Stack Blockchain Developer</li>
-              <li>Live Stream Coding (Building in Public)</li>
-              <li>UI/UX Designer</li>
-              <li>AI Tinkerer & Hacker</li>
-              <li>Creative Problem Solver</li>
+              <li>Back‑end game development at <span className="text-yellow-400">Dreamshot</span></li>
+              <li>Designing and building my own product ideas</li>
+              <li>Volunteer work for small charities</li>
+              <li>Teaching and mentoring at <span className="text-blue-400">SoftUni</span></li>
             </ul>
             <p>
-              My mission is to bridge the gap between blockchain, AI, and
-              human-centered design, creating experiences that are not just
-              technically robust but also intuitive and meaningful.
+              What drives me is simple: I&apos;m inspired and motivated to work
+              relentlessly to help move the world in a better direction—one practical,
+              useful build at a time. That&apos;s the path I&apos;m on for the years ahead.
             </p>
-            <p>
-              Always open to connecting with fellow builders, innovators, and
-              curious minds. Whether it&apos;s discussing the future of Web3, AI
-              developments, or exploring new technological frontiers, I&apos;m
-              here for it.
-            </p>
-            <p>Let&apos;s build the future together.</p>
-            <div className="relative flex flex-col items-center gap-2">
-              <div className="self-start">
-                Wholeness & Balanced Vibrations 🙏
-              </div>
-            </div>
+            <p>Building something meaningful? I&apos;d love to connect.</p><br/>
             <div className="mb-8 font-handwriting text-3xl sm:mb-10 sm:text-4xl lg:text-6xl">
-              <div className="text-white">AquaWolf</div>
-            </div>
-            <div className="flex items-center gap-2">
-              <div>
-                <Image src={AquaWolfPFP} alt="AquaWolf PFP" />
-              </div>
-              <div className="sm:ml-2 lg:ml-4">
-                <div className="text-lg font-semibold text-white sm:text-xl lg:text-2xl">
-                  Nikolay Todorov
-                </div>
-                <div className="text-[11px] sm:text-[12px] lg:text-lg">
-                  Senior Full-Stack Software Engineer
-                </div>
-              </div>
+              <div className="text-white">Nikolay Todorov</div>
             </div>
           </article>
         </div>
