@@ -82,7 +82,7 @@ export function SocialsMenu() {
                 rel="noopener noreferrer"
                 role="menuitem"
                 onClick={() => setIsOpen(false)}
-                className="group grid h-12 w-12 place-items-center rounded-full border border-white/20 bg-white/10 transition-all hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+                className="group grid h-12 w-12 place-items-center rounded-full border border-white/20 bg-white/10 transition-all hover:bg-white/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
                 aria-label={item.name}
               >
                 <Image
