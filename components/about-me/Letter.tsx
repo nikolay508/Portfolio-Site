@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import DreamshotLogo from '@/public/images/png/dreamshot.png';
-import SoftUniLogo from '@/public/images/png/softuni.png';
+import DreamshotLogo from '@/public/images/dreamshot.png';
+import SoftUniLogo from '@/public/images/softuni.png';
 import YoutubeLogo from '@/public/images/svg/Youtube-Logo.svg';
 
 export default function Letter() {

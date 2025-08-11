@@ -2,10 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import GithubLogo from '@/public/images/svg/Github-Logo.svg';
-import InstagramLogo from '@/public/images/svg/Instagram-Logo.svg';
 import LinkedinLogo from '@/public/images/svg/LinkedIn-Logo.svg';
-import TiktokLogo from '@/public/images/svg/Tiktok-Logo.svg';
-import TwitterLogo from '@/public/images/svg/X-Twitter-Logo.svg';
 import YouTubeLogo from '@/public/images/svg/Youtube-Logo.svg';
 
 export function Footer() {

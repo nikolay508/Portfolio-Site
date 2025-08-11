@@ -3,7 +3,7 @@
     "short_name": "Nikolay",
     "icons": [
       {
-        "src": "/images/jpeg/logo-nt.png",
+        "src": "/images/logo-nt.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "any maskable"
