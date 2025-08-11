@@ -72,7 +72,7 @@ export default function Menu() {
           className="flex items-center justify-between p-4 sm:p-6 lg:px-8"
         >
           <div className="hidden lg:flex lg:flex-1"></div>
-          <div className="flex w-full max-w-full flex-nowrap items-center justify-center gap-1 whitespace-nowrap rounded-full bg-white/20 px-2 py-1.5 text-sm text-white backdrop-blur-sm overflow-x-hidden sm:gap-2 sm:px-3 sm:py-2 lg:w-full lg:flex-1 lg:justify-center lg:gap-x-6 lg:text-base">
+          <div className="flex w-full max-w-[86%] mx-auto flex-nowrap items-center justify-center gap-1 whitespace-nowrap rounded-full bg-white/20 px-2 py-1.5 text-sm text-white backdrop-blur-sm overflow-x-hidden sm:max-w-full sm:gap-2 sm:px-3 sm:py-2 lg:w-full lg:flex-1 lg:justify-center lg:gap-x-6 lg:text-base">
             {/* Desktop Mobile menu */}
             {navMenu.map((item) => (
               <span key={item.name} onClick={() => setActiveNavItem(item.name)}>
