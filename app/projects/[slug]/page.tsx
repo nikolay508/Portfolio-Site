@@ -35,7 +35,7 @@ export default function ProjectPage({
 
   return (
     <main className="flex min-h-screen flex-col">
-      <div className="container mx-auto flex-1 px-6 py-24 sm:px-8">
+      <div className="container mx-auto flex-1 px-6 pt-16 pb-24 sm:px-8">
         <ProjectContent {...project} />
       </div>
       <Footer />

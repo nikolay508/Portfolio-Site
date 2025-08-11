@@ -197,8 +197,8 @@ export default function Projects() {
   return (
     <div id="projects" className="mx-auto mt-28 max-w-7xl px-4 py-12 sm:mt-40 sm:py-16">
       <SectionHeading
-        heading="Featured Projects"
-        subheading="A collection of my most impactful work in blockchain and web development"
+        heading="My Strongest Projects"
+        subheading="The collection of my most impactful work - building solutions that help and make a difference"
       />
       <div className="mt-8 grid grid-cols-1 gap-6 sm:mt-12 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projectsData.map((project, index) => (
