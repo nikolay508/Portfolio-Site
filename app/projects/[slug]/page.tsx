@@ -1,6 +1,7 @@
 import { projectsData } from '@/components/Projects/Projects';
 import ProjectContent from '@/components/Projects/ProjectContent';
 import { Footer } from '@/components/footer';
+import { ScrollToTop } from '@/components/ScrollToTop';
 
 export async function generateStaticParams() {
   return projectsData.map((project) => ({
@@ -18,6 +19,7 @@ export default function ProjectPage({
   if (!project) {
     return (
       <main className="flex min-h-screen flex-col">
+        <ScrollToTop />
         <div className="container mx-auto flex-1 px-6 py-24 sm:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-100">
@@ -35,6 +37,7 @@ export default function ProjectPage({
 
   return (
     <main className="flex min-h-screen flex-col">
+      <ScrollToTop />
       <div className="container mx-auto flex-1 px-6 pt-8 pb-24 sm:px-8 sm:pt-16">
         <ProjectContent {...project} />
       </div>
