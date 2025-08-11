@@ -60,7 +60,7 @@ export function SocialsMenu() {
         aria-haspopup="menu"
         aria-expanded={isOpen}
         onClick={() => setIsOpen((prev) => !prev)}
-        className="w-full grid place-items-center rounded-full bg-transparent py-3 text-center text-sm text-white shadow-alt-cta transition-all hover:bg-white hover:text-black hover:shadow-cta sm:py-4 xl:px-6 xl:py-3 xl:text-lg border border-white/20"
+        className="w-full grid place-items-center rounded-full bg-transparent py-3 text-center text-sm text-white shadow-alt-cta transition-all hover:bg-white hover:text-black hover:shadow-cta sm:py-4 xl:px-6 xl:py-3 xl:text-lg"
       >
         My Socials
       </button>
