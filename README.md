@@ -8,7 +8,7 @@ This is my personal portfolio, built with Next.js 14 and TypeScript. It showcase
 - **State/UX**: React Query, next-themes, Framer Motion
 <br/>
 
-## 🖼️ Preview
+## Here you can see the home page:
 <img width="1469" height="753" alt="Screenshot 2025-08-11 at 13 46 27" src="https://github.com/user-attachments/assets/7e9a965b-ddfd-4993-a9b7-785f56f94538" />
 <br/><br/>
 
