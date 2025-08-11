@@ -7,7 +7,7 @@ export default function AboutMe() {
     <div id="my-story" className="mx-auto max-w-[1000px] px-4">
       <SectionHeading
         heading="My Story"
-        subheading="8+ Years of Experience: Full-Stack Software engineer with a passion for UI/UX Design"
+        subheading="I build useful software and help others do the same."
       />
       <Letter />
     </div>
