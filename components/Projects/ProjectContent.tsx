@@ -105,7 +105,7 @@ export default function ProjectContent({
                   <Badge
                     key={tag}
                     variant="secondary"
-                    className="shrink-0 border border-blue-700/50 bg-blue-900/30 px-2 py-0.5 text-xs text-blue-200 lg:px-3 lg:py-1 lg:text-sm"
+                    className="shrink-0 border border-blue-700/50 bg-blue-900/30 px-2 py-0.5 text-xs text-blue-200 transition-colors hover:border-blue-500/70 hover:bg-blue-900/50 hover:text-blue-100 lg:px-3 lg:py-1 lg:text-sm"
                   >
                     {tag}
                   </Badge>
