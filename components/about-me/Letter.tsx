@@ -21,7 +21,7 @@ export default function Letter() {
               alt="SoftUni logo"
               width={120}
               height={120}
-              className="w-16 opacity-80 drop-shadow-[0_0_24px_rgba(59,130,246,0.45)] rotate-[-10deg] md:w-20 lg:w-24 xl:w-28 object-contain"
+              className="w-16 rounded-xl opacity-80 drop-shadow-[0_0_24px_rgba(59,130,246,0.45)] rotate-[-10deg] md:w-20 lg:w-24 xl:w-28 object-contain"
             />
           </div>
           <div className="relative translate-y-6 md:translate-y-8 lg:translate-y-10 left-[2px] md:left-[3px]">
@@ -46,7 +46,7 @@ export default function Letter() {
               alt="Dreamshot logo"
               width={120}
               height={120}
-              className="w-16 opacity-80 drop-shadow-[0_0_24px_rgba(250,204,21,0.45)] rotate-[10deg] md:w-20 lg:w-24 xl:w-28 object-contain"
+              className="w-16 rounded-xl opacity-80 drop-shadow-[0_0_24px_rgba(250,204,21,0.45)] rotate-[10deg] md:w-20 lg:w-24 xl:w-28 object-contain"
             />
           </div>
         </div>
