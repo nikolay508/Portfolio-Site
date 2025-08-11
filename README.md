@@ -1,4 +1,4 @@
-### Personal Site by Nikolay Todorov
+# Personal Site by Nikolay Todorov
 
 ## ℹ️ About the project
 This is my personal portfolio, built with Next.js 14 and TypeScript. It showcases my work, skills, and ways to get in touch. The site focuses on performance, accessibility, and a clean developer experience using React Server Components and minimal client-side code where needed.
