@@ -65,7 +65,7 @@ export default function Letter() {
               coders find their footing, and give small charities the chance of more visibility.
             </p>
             <p>
-              After graduating, I went all in. I started working as a back‑end
+              After graduating, I went all in. I started working as a backend
               developer building games at <span className="text-yellow-400">Dreamshot</span>,
               kept developing my own ideas, and spent time teaching programming to
               students from <span className="text-blue-400">SoftUni</span> and additionally on <span className="text-red-400">YouTube</span> - showing them the craft, the mindset, and the joy of
