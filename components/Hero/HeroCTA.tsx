@@ -18,7 +18,7 @@ export default function HeroCTA() {
               Lecturer
             </Badge>
             <Badge className="border-white/15 bg-white/10 text-white/90 backdrop-blur-sm hover:bg-white/20 px-3 py-0.5 text-sm sm:text-base sm:px-3 sm:py-1">
-              Entrepreneur
+              Student
             </Badge>
           </div>
         </div>
