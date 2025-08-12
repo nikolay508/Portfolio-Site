@@ -9,7 +9,7 @@ This is my personal portfolio, built with Next.js 14 and TypeScript. It showcase
 <br/>
 
 ## Here you can see the home page:
-<img width="1469" height="753" alt="Screenshot 2025-08-11 at 13 46 27" src="https://github.com/user-attachments/assets/7e9a965b-ddfd-4993-a9b7-785f56f94538" />
+<img width="1470" height="753" alt="Screenshot 2025-08-12 at 17 27 15" src="https://github.com/user-attachments/assets/83ad5c6b-a7ac-4345-9c9e-d4ca75c3b050" />
 <br/><br/>
 
 ## 🧩 Features
