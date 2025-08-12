@@ -67,7 +67,7 @@ export default function Letter() {
             <p>
               After graduating, I went all in. I started working as a back‑end
               developer building games at <span className="text-yellow-400">Dreamshot</span>,
-              kept developing my own ideas, and spent time teaching fundamentals to
+              kept developing my own ideas, and spent time teaching programming to
               students from <span className="text-blue-400">SoftUni</span> and additionally on <span className="text-red-400">YouTube</span> - showing them the craft, the mindset, and the joy of
               building incredible things.
             </p>
@@ -79,7 +79,7 @@ export default function Letter() {
             <p className="font-semibold text-white/90">Today, I split my time between:</p>
             <ul className="list-disc pl-5 sm:pl-6">
               <li>Back‑end game development at <span className="text-yellow-400">Dreamshot</span></li>
-              <li>Designing and building my own ideas</li>
+              <li>Working on my own ideas</li>
               <li>Volunteering for charities in need</li>
               <li>Teaching and mentoring at <span className="text-blue-400">SoftUni</span></li>
               <li>Adding more value with tutorials on <span className="text-red-400">YouTube</span></li>
