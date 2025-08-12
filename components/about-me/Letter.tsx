@@ -78,7 +78,7 @@ export default function Letter() {
             </p>
             <p className="font-semibold text-white/90">Today, I split my time between:</p>
             <ul className="list-disc pl-5 sm:pl-6">
-              <li>Back‑end game development at <span className="text-yellow-400">Dreamshot</span></li>
+              <li>Back‑end Development at <span className="text-yellow-400">Dreamshot</span></li>
               <li>Working on my own ideas</li>
               <li>Volunteering for charities in need</li>
               <li>Teaching and mentoring at <span className="text-blue-400">SoftUni</span></li>
