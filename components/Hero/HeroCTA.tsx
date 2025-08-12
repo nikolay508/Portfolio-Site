@@ -12,7 +12,7 @@ export default function HeroCTA() {
             aria-label="Roles"
           >
             <Badge className="border-white/15 bg-white/10 text-white/90 backdrop-blur-sm hover:bg-white/20 px-3 py-0.5 text-sm sm:text-base sm:px-3 sm:py-1">
-              Software Engineer
+              Software Dev
             </Badge>
             <Badge className="border-white/15 bg-white/10 text-white/90 backdrop-blur-sm hover:bg-white/20 px-3 py-0.5 text-sm sm:text-base sm:px-3 sm:py-1">
               Student
