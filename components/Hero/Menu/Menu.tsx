@@ -31,6 +31,13 @@ export default function Menu() {
     return null;
   }
 
+  function getNameByTargetId(id: string): string | null {
+    if (id === 'reviews') return 'Reviews';
+    if (id === 'my-story') return 'My Story';
+    if (id === 'projects') return 'Projects';
+    return null;
+  }
+
   function scrollToId(targetId: string) {
     const headerOffset = 100;
     const element = document.getElementById(targetId);
@@ -53,11 +60,35 @@ export default function Menu() {
     function handleScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       setIsScrolled(scrollTop > 100);
+
+      if (pathname !== '/') return;
+
+      const headerOffset = 100;
+      const scrollPositionWithOffset = (window.scrollY || 0) + headerOffset + 1;
+      const sectionIds = ['reviews', 'my-story', 'projects'];
+
+      let nextActive: string = 'Home';
+      let bestOffset = -1;
+
+      for (const id of sectionIds) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+        const elementTop = el.getBoundingClientRect().top + window.scrollY;
+        if (elementTop <= scrollPositionWithOffset && elementTop > bestOffset) {
+          bestOffset = elementTop;
+          const name = getNameByTargetId(id);
+          if (name) nextActive = name;
+        }
+      }
+
+      setActiveNavItem(nextActive);
     }
 
     window.addEventListener('scroll', handleScroll);
+    // Initialize on mount to set correct active link
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [pathname]);
 
   return (
     <div className="mx-auto max-w-[1440px]">
