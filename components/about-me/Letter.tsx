@@ -82,7 +82,7 @@ export default function Letter() {
               <li>Working on my own ideas</li>
               <li>Volunteering for charities in need</li>
               <li>Teaching and mentoring at <span className="text-blue-400">SoftUni</span></li>
-              <li>Adding more value with videos on <span className="text-red-400">YouTube</span></li>
+              <li>Adding more value through <span className="text-red-400">YouTube</span></li>
             </ul>
             <p>
               <span className="font-semibold text-white/90">What drives me is simple:</span>  I am inspired and motivated to work
