@@ -40,7 +40,7 @@ export default function Menu() {
 
   function getHeaderOffsetFor(targetId: string): number {
     if (targetId === 'reviews' || targetId === 'projects') return 60; // scroll a bit more for Reviews & Projects
-    return 100;
+    return 120;
   }
 
   function scrollToId(targetId: string) {
@@ -68,19 +68,19 @@ export default function Menu() {
 
       if (pathname !== '/') return;
 
-      const headerOffset = 100;
-      const scrollPositionWithOffset = (window.scrollY || 0) + headerOffset + 1;
+      const currentY = (window.scrollY || 0);
       const sectionIds = ['reviews', 'my-story', 'projects'];
 
       let nextActive: string = 'Home';
-      let bestOffset = -1;
+      let bestActivationPoint = -Infinity;
 
       for (const id of sectionIds) {
         const el = document.getElementById(id);
         if (!el) continue;
         const elementTop = el.getBoundingClientRect().top + window.scrollY;
-        if (elementTop <= scrollPositionWithOffset && elementTop > bestOffset) {
-          bestOffset = elementTop;
+        const activationPoint = elementTop - getHeaderOffsetFor(id);
+        if (currentY >= activationPoint && activationPoint > bestActivationPoint) {
+          bestActivationPoint = activationPoint;
           const name = getNameByTargetId(id);
           if (name) nextActive = name;
         }
