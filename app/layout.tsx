@@ -146,7 +146,7 @@ export default function RootLayout({
                         window.addEventListener('load', function(){
                           var el = document.getElementById(target);
                           if (el) {
-                            var headerOffset = 100;
+                            var headerOffset = (target === 'reviews' || target === 'projects') ? 60 : 100;
                             var elementTop = el.getBoundingClientRect().top + window.scrollY;
                             var offsetTop = Math.max(elementTop - headerOffset, 0);
                             window.scrollTo({ top: offsetTop, behavior: 'smooth' });

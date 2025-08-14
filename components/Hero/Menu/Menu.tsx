@@ -38,8 +38,13 @@ export default function Menu() {
     return null;
   }
 
+  function getHeaderOffsetFor(targetId: string): number {
+    if (targetId === 'reviews' || targetId === 'projects') return 60; // scroll a bit more for Reviews & Projects
+    return 100;
+  }
+
   function scrollToId(targetId: string) {
-    const headerOffset = 100;
+    const headerOffset = getHeaderOffsetFor(targetId);
     const element = document.getElementById(targetId);
     if (!element) return;
     const elementTop = element.getBoundingClientRect().top + window.scrollY;
