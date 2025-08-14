@@ -12,7 +12,7 @@ export const commentsData: CommentData[] = [
     handle: "@bobkoss280",
     avatarUrl: "/images/youtube-pfp/bob-koss.png",
     comment:
-      "Just found your channel. Great content. Thank you for taking the time to make the videos",
+      "Just found your channel. Great content.",
     isYouTuber: true,
   },
   {
@@ -34,7 +34,7 @@ export const commentsData: CommentData[] = [
     username: "Nine",
     handle: "@Nineiscomplete",
     avatarUrl: "/images/youtube-pfp/nine.png",
-    comment: "Streams are fire 🔥🔥",
+    comment: "Videos are fire 🔥🔥",
     isYouTuber: true,
   },
   {
@@ -42,14 +42,14 @@ export const commentsData: CommentData[] = [
     handle: "@GR3YSORG4N1CS",
     avatarUrl: "/images/youtube-pfp/GR3Ys-0RG4N1CS.png",
     comment:
-      "From the thumbnail it looks like you're missing rainbow-delimiters.nvim but other than that, looks pretty much exactly the same (within reason) as vscode",
+      "From the thumbnail it looks pretty much exactly the same as vscode",
     isYouTuber: true,
   },
   {
     username: "Val Alexander",
     handle: "@OxBuns",
     avatarUrl: "/images/youtube-pfp/Val-Alexander.png",
-    comment: "Not surprised one bit — well deserved 👏",
+    comment: "Not surprised one bit, well deserved 👏",
     isYouTuber: true,
   },
   {
@@ -57,42 +57,42 @@ export const commentsData: CommentData[] = [
     handle: "@Douglas-PC",
     avatarUrl: "/images/youtube-pfp/Douglas.png",
     comment:
-      "Subbed, keep it up good explainers on technical, programming, reviewing the IDE and coding information.",
+      "keep it up good explainers on technical, programming, reviewing the IDE info.",
     isYouTuber: true,
   },
   {
     username: "Joffrey",
     handle: "@joffrey5601",
     avatarUrl: "/images/youtube-pfp/Joffrey.png",
-    comment: "You deserve it.",
+    comment: "You deserve it",
     isYouTuber: true,
   },
   {
     username: "Andriy Pashynnyk",
     handle: "@andriypashynnyk4278",
     avatarUrl: "/images/youtube-pfp/Andriy-Pashynnyk.png",
-    comment: "very nice stream!",
+    comment: "very nice video!",
     isYouTuber: true,
   },
   {
     username: "Someone You've Never Heard of",
     handle: "@someoneyouveneverheardof",
     avatarUrl: "/images/youtube-pfp/Someone-You've-Never-Heard-of.png",
-    comment: "Loved it!",
+    comment: "Loved it! keep up the good work",
     isYouTuber: true,
   },
   {
     username: "cariyaputta",
     handle: "@cariyaputta",
     avatarUrl: "/images/youtube-pfp/cariyaputta.png",
-    comment: "Nice.",
+    comment: "Nice content overall",
     isYouTuber: true,
   },
   {
     username: "Improving Cow",
     handle: "@improving_cow",
     avatarUrl: "/images/youtube-pfp/Improving-Cow.png",
-    comment: "Best tutorial",
+    comment: "Best tutorial for beginners",
     isYouTuber: true,
   },
 ];
