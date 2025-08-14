@@ -8,6 +8,30 @@ export interface CommentData {
 
 export const commentsData: CommentData[] = [
   {
+    username: "vrstanchev",
+    handle: "@vrstanchev",
+    avatarUrl: "/images/youtube-pfp/vrstanchev.png",
+    comment:
+      "Well done, mate",
+    isYouTuber: true,
+  },
+  {
+    username: "Bobi Bg133",
+    handle: "@bobibg1337",
+    avatarUrl: "/images/youtube-pfp/bobibg1337.png",
+    comment:
+      "Great lecturer even so young :D",
+    isYouTuber: true,
+  },
+  {
+    username: "Anton Almishev",
+    handle: "@antonalmishev1784",
+    avatarUrl: "/images/youtube-pfp/antonalmishev1784.png",
+    comment:
+      "Cool, when will there be more?",
+    isYouTuber: true,
+  },
+  {
     username: "Bkachama",
     handle: "@bkachama7223",
     avatarUrl: "/images/youtube-pfp/Bkachama.png",
