@@ -11,8 +11,7 @@ This is my personal portfolio, built with Next.js 14 and TypeScript. It showcase
 ## Here you can see the home page:
 <img width="1470" height="752" alt="Screenshot 2025-08-14 at 17 14 39" src="https://github.com/user-attachments/assets/5b5b287e-3541-4a99-9d6e-0d6593600612" />
 <p align="center"><img width="591" height="674" alt="Screenshot 2025-08-14 at 21 36 16" src="https://github.com/user-attachments/assets/787a4b7d-c7a5-4c99-a1bb-819529e2bdde" /><p/>
-<br/><br/>
-
+<br/>
 
 ## 🧩 Features
 - **Hero section** with CTAs to booking and GitHub
