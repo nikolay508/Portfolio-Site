@@ -103,9 +103,9 @@ export const commentsData: CommentData[] = [
     isYouTuber: true,
   },
   {
-    username: "Improving Cow",
-    handle: "@improving_cow",
-    avatarUrl: "/images/youtube-pfp/Improving-Cow.png",
+    username: "Kristiqn Dimitrov",
+    handle: "@dimitroff02",
+    avatarUrl: "/images/youtube-pfp/dimitroff02.png",
     comment: "Best tutorial for beginners",
     isYouTuber: true,
   },
