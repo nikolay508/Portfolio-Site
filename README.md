@@ -7,7 +7,6 @@ This is my personal portfolio, built with Next.js 14 and TypeScript. It showcase
 - **UI**: shadcn/ui, tailwindcss-animate, Lucide Icons
 - **State/UX**: React Query, next-themes, Framer Motion
 <br/>
-
 ## Here you can see the home page:
 <img width="1470" height="752" alt="Screenshot 2025-08-14 at 17 14 39" src="https://github.com/user-attachments/assets/5b5b287e-3541-4a99-9d6e-0d6593600612" />
 <br/><br/>
